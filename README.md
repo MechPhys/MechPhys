@@ -6,6 +6,16 @@ Here is an overview of approaches taken to mechanistic physics models.
 
 There are usually multiple different ways of mathematically representing any given physical phenomenon. ... See O'Reilly (2011) and Santos (2015) for discussion.
 
+## Major issues
+
+* Wave particle synthesis:  deBroglie-Bohm pilot wave of particle is appealing physical model, but what is the wave?  Particles avoid wave collapse paradoxes.
+
+* Virtual particles in std model have *real* effects!  Zero point field, path integral formulation, quantum foam: space is never empty.  Waves live in these fields permeating space.
+
+* Nonlocality.  Presents a seemingly insurmountable problem for autonomous physical models -- can properties of the fields / waves get around this?
+
+
+
 ## WELD: Wave electrodynamics
 
 Wave electrodynamics is incredibly cool, but unfortunately has serious limitations as a accurate model of physics.  Nevertheless, it is very instructive for learning about a lot of different physical phenomenon in a very compact and intuitive way, using fun graphical simulations.  
@@ -13,6 +23,8 @@ Wave electrodynamics is incredibly cool, but unfortunately has serious limitatio
 The main limitation is that waves are just too sloppy -- they spill out all over the place and diffuse endlessly, and are not good for the precise accounting that nature seems to require.
 
 ## SolidMatrix
+
+> "Nature is, above all else, a meticulous accountant"
 
 SolidMatrix is a new approach that is based on discrete particles in a discrete matrix or lattice.  These discrete particles are much better for keeping the accounting tight, but they suffer in general from discrete, unrealistic motion (aliasing effects).  Interestingly, stochastic motion where there is a certain probability of taking a step at each point in time provides a way of smoothing the motion of these discrete particles.  Antonio Sciarretta has developed these models in a series of recent papers, which we build upon here.
 
